@@ -6,6 +6,82 @@
   height: 5vmin;
 }
 
+.app-logo-main {
+  height: 20vmin;
+}
+
+.home, .about {
+  height: calc(100vh - 60px);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.about {
+  height: auto;
+  min-height: calc(100vh - 60px);
+}
+
+.main-container {
+  background-color: #ffffff61;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container h1 {
+  margin-bottom: 30px;
+}
+
+.team-member-all {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.team-member-box label {
+  font-weight: bold;
+}
+
+.team-member {
+  width: 200px;
+  margin: 5px;
+}
+
+.data-table ul {
+  list-style: none;
+}
+
+.data-item-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.data-item {
+  display: flex;
+}
+
+.data-item-label {
+  border: 1px solid #cdcdcd;
+  padding: 10px;
+  width: 100%;
+}
+
+.data-table {
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  padding: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
